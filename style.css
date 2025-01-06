@@ -1,0 +1,191 @@
+body {
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar {
+    background-color: #A888B5;
+    height: 160vh;
+    color: white;
+}
+.sidebar a {
+    text-decoration: none;
+    color: white;
+    margin: 10px 0;
+    display: block;
+    padding: 10px;
+}
+.sidebar a:hover {
+    background-color: #A888B5;
+    border-radius: 10px;
+}
+.main-content {
+    padding: 20px;
+}
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.search-bar input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.search-bar button {
+    background-color:  #A888B5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.search-bar button:hover {
+    background-color: transparent;
+    color:  #A888B5;
+    border: 2px solid #7b47f2;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+}
+.user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.welcome-banner {
+    background-color:  #A888B5;
+    border-radius: 10px;
+    padding: 20px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.welcome-banner img{
+    width: 100px;
+    height: 100px;
+}
+.main-sections {
+    display: flex;
+    justify-content: space-between;
+}
+.left-section {
+    width: 65%;
+}
+.right-section {
+    width: 30%;
+}
+.main-sections {
+    display: flex;
+    justify-content: space-between;
+}
+.left-section {
+    width: 65%;
+}
+.right-section {
+    width: 30%;
+}
+.finance-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.finance-card {
+    background: linear-gradient(135deg, #ffffff, #f3ecfc);
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.finance-card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+.finance-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+.enrolled-courses {
+    margin-bottom: 20px;
+}
+.course-card {
+    background: linear-gradient(135deg, #f5f1fe, #ebe5fd);
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.course-card .icon-area {
+    background-color:  #A888B5;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-right: 15px;
+}
+.course-card .text-area {
+    flex-grow: 1;
+}
+.course-card h6 {
+    margin: 0;
+    padding-bottom: 20px;
+    color:  #A888B5;
+    font-weight: bold;
+}
+.course-card .btn {
+    background-color:  #A888B5;
+    color: white;
+    border: none;
+}
+.course-card .btn:hover {
+    background-color: transparent;
+    color:  #A888B5;
+    border: 2px solid  #A888B5;
+}
+.course-instructors {
+    margin-bottom: 20px;
+}
+.instructor-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.instructor-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.instructor-card h6 {
+    margin: 0;
+    font-size: 40px;
+    color:  #A888B5;
+}
+.daily-notice {
+    background: linear-gradient(135deg, #ffffff, #f3ecfc);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.daily-notice h6 {
+    color:  #A888B5;
+}
